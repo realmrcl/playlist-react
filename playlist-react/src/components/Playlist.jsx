@@ -26,7 +26,7 @@ export function Playlist() {
     const aktywne = playlisty.filter((item) => item.enabled);
 
     return (
-        <div style={{ padding: '20px' }}>
+        <div className="container">
             <h1>Playlista</h1>
 
             <div className="d-flex flex-column gap-3 mb-4">
